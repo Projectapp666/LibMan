@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".AdminUserBorrowList"
+            android:exported="false"
+            android:noHistory="true"
+           />
+        <activity
+            android:name=".LibraryInfo"
+            android:exported="false" />
+        <activity
+            android:name=".userLibraryInfo"
+            android:exported="false" />
+        <activity
+            android:name=".admin_Book_Info"
+            android:exported="false" />
+        <activity
+            android:name=".add_book"
+            android:exported="false" />
+        <activity
+            android:name=".Return_book"
+            android:exported="false" />
+        <activity android:name=".AboutUs" />
+        <activity
+            android:name=".Manage_account"
+            android:exported="false" />
+        <activity
+            android:name=".manage_books"
+            android:exported="false" />
+        <activity
+            android:name=".search"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".sseting"
+            android:exported="false" />
+        <activity
+            android:name=".Scan_qr"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:noHistory="true" />
+        <activity android:name=".help" />
+        <activity android:name=".Register" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".Book_Info" />
+        <activity
+            android:name=".adminDash"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity android:name=".GenerateQR" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ManageUsers"
+            android:exported="false"
+            android:noHistory="true"
+            />
+        <activity android:name=".UserBorrowList" />
+        <activity android:name=".BorrowList" />
+        <activity android:name=".adminhelp" />
+        <activity android:name=".admin_AboutUs" />
+        <activity android:name=".admin_sseting" />
+        <activity android:name=".bookReturnDetailsDialogue" />
+        <activity android:name=".user_search" />
+    </application>
+
+</manifest>

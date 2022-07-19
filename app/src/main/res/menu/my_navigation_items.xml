@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+<!--    <item android:title="@string/app_name"-->
+<!--        />-->
+<!--    <item android:title=" "/>-->
+
+
+<group android:checkableBehavior="single"
+        android:id="@+id/group2">
+    <item
+        android:icon="@drawable/ic_home"
+        android:id="@+id/nav_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_borrow_Book"
+        android:title="Borrowed Books"
+        android:icon="@drawable/issue_icon"
+        />
+
+    <item
+        android:id="@+id/nav_scan"
+        android:title="Scan QR"
+        android:icon="@drawable/scanqr_icon"
+        /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3">
+        <item
+        android:id="@+id/nav_acc_sett"
+        android:title="Manage Account"
+        android:icon="@drawable/ic_manage_account"
+        />
+    <item
+        android:id="@+id/naav_setting"
+        android:title="Settings"
+        android:icon="@drawable/ic_setting"
+        /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+
+        <item
+            android:id="@+id/nav_lib_info"
+            android:icon="@drawable/ic_library_books_fill0_wght400_grad0_opsz48"
+            android:title="Library Details"
+            />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help_icon"
+            android:title="Help"
+            />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:title="About Us"
+            android:icon="@drawable/ic_group"
+            />
+        <item
+        android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:icon="@drawable/ic_logout"
+        />
+</group>
+</menu>

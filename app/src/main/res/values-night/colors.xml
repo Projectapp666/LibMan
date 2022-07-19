@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="teal_200">#000000</color>
+    <color name="purple_700">#000000</color>
+    <color name="purple_200">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+
+    <color name="label">#FFFFFF</color>
+    <color name="heading">#FFFFFF</color>
+    <color name="subheading">#9F9F9F</color>
+    <color name="accent">#4DD0E1</color>
+    <color name="activeBtn">#4BA652</color>
+    <color name="inactiveBtn">#676767</color>
+    <color name="divider">#FFFFFF</color>
+    <color name="background">#000000</color>
+
+    <color name="foreground">#FFFDE7</color>
+
+
+
+
+
+</resources>

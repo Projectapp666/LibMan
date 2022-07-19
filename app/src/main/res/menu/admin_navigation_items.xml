@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:icon="@drawable/ic_home"
+            android:id="@+id/nav_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_return_Book"
+            android:title="Return Book"
+            android:icon="@drawable/ic_return_icon"
+            />
+        <item
+            android:id="@+id/nav_generat"
+            android:title="Generate QR"
+            android:icon="@drawable/ic_generate_qr"
+            />
+
+        <group android:checkableBehavior="single"
+            android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_acc_set"
+            android:title="Add Book"
+            android:icon="@drawable/ic_manage_account"
+            />
+        <item
+        android:id="@+id/nav_book_set"
+        android:title="Manage Books"
+        android:icon="@drawable/ic_library_books_fill0_wght400_grad0_opsz48"
+        />
+        </group>
+        <item
+            android:id="@+id/nav_setting"
+            android:title="Settings"
+            android:icon="@drawable/ic_setting"
+            />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help_icon"
+            android:title="Help"
+            />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:title="About Us"
+            android:icon="@drawable/ic_group"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out"
+            android:icon="@drawable/ic_logout"
+            />
+
+</menu>

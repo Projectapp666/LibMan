@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/SabkaBaap"
+
+    >
+    <LinearLayout
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        android:orientation="vertical">
+ <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        />
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author:"/>
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book ID:"/>
+
+
+</LinearLayout>
+
+     <LinearLayout
+         android:layout_margin="10dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         >
+
+
+
+         <TextView
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="10dp"
+             android:textStyle="bold"
+             android:textSize="15dp"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="marquee_forever"
+             android:maxLines="1"
+             android:scrollHorizontally="true"
+             android:singleLine="true"
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/book_name"/>
+         <TextView
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="10dp"
+             android:textStyle="bold"
+             android:textSize="15dp"
+
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="marquee_forever"
+             android:maxLines="1"
+             android:scrollHorizontally="true"
+             android:singleLine="true"
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/book_author"/>
+         <TextView
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="10dp"
+             android:textStyle="bold"
+             android:textSize="15dp"
+
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/book_id"/>
+
+     </LinearLayout>
+
+ </LinearLayout>
+
+
+            <Button
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manage Book"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/bookInfo"
+                android:textColor="@color/heading"
+                android:backgroundTint="@color/accent"
+                />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/foreground"/>
+
+</androidx.cardview.widget.CardView>

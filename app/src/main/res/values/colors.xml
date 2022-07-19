@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Colors-->
+    <color name="black">#000000</color>
+    <color name="teal_200">#000000</color>
+    <color name="purple_700">#000000</color>
+    <color name="purple_200">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="label">#000000</color>
+    <color name="heading">#0D0D0D</color>
+    <color name="subheading">#0D0D0D</color>
+    <color name="accent">#4DD0E1</color>
+    <color name="activeBtn">#1B5E20</color>
+    <color name="inactiveBtn">#676767</color>
+    <color name="divider">#0D0D0D</color>
+    <color name="background">#FFFFFF</color>
+
+    <color name="foreground">#FFFDE7</color>
+
+
+</resources>

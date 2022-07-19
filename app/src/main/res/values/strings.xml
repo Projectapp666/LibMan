@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LibMan</string>
+    <string name="navigation">Navigation</string>
+    <string name="Cover_Img_Desc">Book Front Cover</string>
+    <string name="Book_Available">Available</string>
+    <string name="Book_Unavailable">Unavailable</string>
+    <string name="book_id">ID:</string>
+    <string name="book_location">Location:</string>
+    <string name="book_borrow">Borrow</string>
+    <string name="popular_books">Popular Books</string>
+    <string name="new_arrivals">New Arrivals</string>
+    <string name="night_mode_off">NIGHT MODE OFF</string>
+    <string name="night_mode_on">NIGHT MODE ON</string>
+    <string name="generate">Generate</string>
+    <string name="enter_book_id">Enter Book Id</string>
+</resources>
